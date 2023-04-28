@@ -2,7 +2,7 @@ import os
 
 from setuptools import find_packages, setup
 
-install_requires = ["pyodbc>=4.0.35"]
+install_requires = ["pyodbc @ git+https://github.com/RA80533/pyodbc@setup-script"]
 
 
 def read(f):
